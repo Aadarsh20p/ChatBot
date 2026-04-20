@@ -43,7 +43,9 @@ A sophisticated, hallucination-resistant AI chatbot built with Streamlit and PyT
    ```
 
 4. **Ensure Model Files are Present:**
-   Ensure the `models/openchat_3.5` directory contains the model weights (`pytorch_model.bin`, `config.json`, etc.). 
+   Since the model weights are too large for GitHub, you'll need to download them manually:
+   - Download the [OpenChat-3.5 model files from Hugging Face](https://huggingface.co/openchat/openchat_3.5).
+   - Place all the downloaded files (`pytorch_model.bin`, `config.json`, etc.) into a new directory: `models/openchat_3.5/` within the project folder. 
 
 ## Running the App 🚀
 
